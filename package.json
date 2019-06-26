@@ -4,7 +4,8 @@
   "description": "Glitch Github Sync",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "nodemon": "PORT=3000 nodemon server.js"
   },
   "author": "Natanael",
   "license": "ISC",
