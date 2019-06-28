@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 
 const app = express()
 app.use(bodyParser.json())
+app.use(express.static('public'))
 
 const verifySignature = (req, res, next) => {
   const payload = JSON.stringify(req.body)
